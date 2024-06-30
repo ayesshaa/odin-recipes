@@ -1,39 +1,46 @@
 /* styling */
 
-.main-page, body{
-    background-color: cadetblue;
-    color: linen;
+.main-page, .main-bg-color{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding-top: 12px;
+    
 }
 
+
 .main-heading {
-    font-family: monospace;
+    font-family: Garamond;
     font-size: 30;
-    background-color: rgb(22, 128, 132);
+    background-color: rgb(196, 252, 252);
     padding: 12px;
     margin: auto;
     width: fit-content;
     border-radius: 30px;
-    box-shadow: -8px 6px black;
+    box-shadow: -6px 3px rgb(51, 71, 71);
+    
+    
     
 }
+.main-page a{
+    text-decoration: none;
 
+}
 .recipe-box {
     color: black;
     font-family: Garamond;
     font-size: 20px;
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(182, 243, 182);
     list-style: none;
     width: 500px;
     text-align: justify;
     padding: 14px;
     margin: 20px auto;
     border-radius: 15px;
-    box-shadow: -8px 6px black;
-
+    box-shadow: -8px 6px rgb(51, 71, 71);
 }
 
 .recipe-box:hover {
-    background-color: plum;
+    background-color: rgb(144, 210, 144);
 }
 
 .recipe-box img{
@@ -42,7 +49,6 @@
     margin-right: 25%;
     width: 50%;
     border-radius: 10px;
-    border: 5px solid plum;
     position: relative;
 
 }
@@ -51,3 +57,86 @@
     opacity: 0.8;
 }
 
+
+.recipe-page {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border: 5px dotted rgb(111, 63, 13);
+    text-align: justify;
+    
+
+}
+
+.recipe-page body{
+    background-color: linen;
+}
+
+.recipe-title {
+    text-align: center;
+    font-family: Garamond;
+}
+
+.picture-box{
+    width: fit-content;
+    padding: 14px;
+    margin: 20px auto;
+    border-radius: 15px;
+    border-image: round;
+    object-fit: contain;
+
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.recipe-content{
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: Garamond;
+}
+
+.recipe-content h3{
+    text-decoration: underline solid rgb(111, 63, 13) 2px; 
+    font-size: 24px;   
+}
+
+.recipe-content h2{
+    font-size: 30px;
+}
+
+.recipe-content ul{
+    list-style-type: none;
+    text-align: justify;
+    background-color: rgb(182, 243, 182);
+    border-radius: 23px;
+    padding: 10px;
+    width: 90%;
+}
+
+.recipe-content ol {
+    line-height: 45px;
+    background-color: rgb(196, 252, 252);
+    text-align: justify;
+    border-radius: 23px;
+    padding: 10px;
+    list-style-position: inside;
+    width: 90%;
+
+}
+
+.main-page-button {
+    padding: 23px;
+    font-family: Garamond;
+    background-color: rgb(111, 63, 13);
+    border-radius: 15px;
+    width: max-content;
+    margin-top: 2%;
+    margin-left: 1%;
+    
+}
+
+.main-page-button a {
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+}
